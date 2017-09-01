@@ -1,1 +1,44 @@
 Welcome to my gitManual, in which everything about git is explained from basics.
+
+
+Step1: install git using command
+		$sudo apt-get install git
+		$git --version
+step2: You can check manual of git using or use help command 
+		$man git
+		$git --help
+step3: THen, configure of Git:
+		$git config --global user.name "userName"
+		$git config --global user.email "xyz@abc.com"
+		$git config --global user.password "123456"
+	To view all config:
+		$git config --list
+	For more confog help:
+		$git config --help
+	
+	Create a repository by logging at https://github.com/userName
+		New Repository: repositoryName	
+
+
+step4: Initialization of Git:
+		$git init
+	
+step5: Cloning of Git:
+		$git clone https://github.com/userName/repositoryName.git
+
+	Creating sample file, code :
+		$gedit gitDemo.txt
+		$gedit README.md
+		
+step6: Adding file to git :
+		$git add -A      //Add all file
+		$git add "README.md"        //add single file
+		$git satus -s			//to check status of code addded or not.
+
+step7: Commit file to server repository:
+		$git commit -m "This is initial commit"
+
+step8: To push to master:
+		$git push -u origin master
+		$git log                        //to check log history of repository. 
+ 
