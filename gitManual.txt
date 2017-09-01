@@ -1,4 +1,4 @@
-Welcome to my gitManual, in which everything about git is explained from basics.
+Welcome to gitManual, in which everything about git is explained from basics.
 
 
 Step1: install git using command
@@ -31,14 +31,14 @@ step5: Cloning of Git:
 		$gedit README.md
 		
 step6: Adding file to git :
-		$git add -A      //Add all file
-		$git add "README.md"        //add single file
+		$git add -A      		//Add all file
+		$git add "README.md"            //add single file
 		$git satus -s			//to check status of code addded or not.
 
 step7: Commit file to server repository:
 		$git commit -m "This is initial commit"
 
 step8: To push to master:
-		$git push -u origin master
+		$git push -u origin master	//Here, user and password as userName and 123456 respectively.
 		$git log                        //to check log history of repository. 
  
